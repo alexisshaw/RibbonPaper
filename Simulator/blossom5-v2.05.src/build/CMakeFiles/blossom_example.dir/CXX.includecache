@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../blossom/GEOM/GeomPerfectMatching.h
+assert.h
+-
+math.h
+-
+../PerfectMatching.h
+../blossom/PerfectMatching.h
+
+../blossom/PerfectMatching.h
+assert.h
+-
+limits.h
+-
+block.h
+../blossom/block.h
+
+../blossom/block.h
+block.h
+../blossom/block.h
+stdlib.h
+-
+
+/home/ashaw/cluster/blossom5-v2.05.src/example.cpp
+stdio.h
+-
+PerfectMatching.h
+/home/ashaw/cluster/blossom5-v2.05.src/PerfectMatching.h
+GEOM/GeomPerfectMatching.h
+/home/ashaw/cluster/blossom5-v2.05.src/GEOM/GeomPerfectMatching.h
+

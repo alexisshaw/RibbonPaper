@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/blossom_example.dir/example.cpp.o  -o blossom_example  blossom/libblossom-v.a 

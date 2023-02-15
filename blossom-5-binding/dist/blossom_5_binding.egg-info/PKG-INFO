@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: blossom-5-binding
+Version: 0.1.0
+Summary: A python binding for Blossom-V using pybind11
+Home-page: http://alexisshaw.com
+Author: Alexis Shaw
+Author-email: alexis@alexisshaw.com
+License: Proprietary / MIT
+Description: UNKNOWN
+Platform: UNKNOWN

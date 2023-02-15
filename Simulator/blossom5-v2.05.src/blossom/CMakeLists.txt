@@ -1,0 +1,19 @@
+add_library(blossom-v 
+	STATIC 
+		misc.cpp
+		PMduals.cpp
+		PMexpand.cpp
+		PMinit.cpp
+		PMinterface.cpp
+		PMmain.cpp
+		PMrepair.cpp
+		PMShrink.cpp
+		MinCost/MinCost.cpp
+		GEOM/GPMinit.cpp
+		GEOM/GPMinterface.cpp
+		GEOM/GPMkdtree.cpp
+		GEOM/GPMmain.cpp)
+
+target_include_directories(blossom-v
+	PUBLIC
+	"$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>")

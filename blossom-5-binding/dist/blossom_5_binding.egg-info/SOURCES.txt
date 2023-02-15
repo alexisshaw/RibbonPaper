@@ -1,0 +1,5 @@
+setup.py
+dist/blossom_5_binding.egg-info/PKG-INFO
+dist/blossom_5_binding.egg-info/SOURCES.txt
+dist/blossom_5_binding.egg-info/dependency_links.txt
+dist/blossom_5_binding.egg-info/top_level.txt
